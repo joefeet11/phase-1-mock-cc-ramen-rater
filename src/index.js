@@ -43,4 +43,5 @@ ramenForm.addEventListener('submit', (e) => {
     restaurantName.textContent= e.target['new-restaurant'].value
     ramenRating.textContent = e.target['new-rating'].value
     ramenComment.textContent = e.target['new-comment'].value
+    ramenMenu.appendChild(ramenImg)
 })
